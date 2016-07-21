@@ -1,0 +1,231 @@
+/*allgemein*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: grey;
+
+}
+
+/*startseite*/
+.home {
+  background: url(../images/schiff.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.startseite {
+  width: 100%;
+  height: 100%;
+}
+
+.n {
+  font-family: Oranienbaum, serif;
+  font-size: 130px;
+/*color: rgba(0, 168, 255, 0.5);
+  text-shadow: 5px 5px 0 rgba(255, 0, 180, 0.5);*/
+  color: black;
+  opacity: 1.0;
+  text-align: center;
+  margin-left: 48%;
+  position: absolute;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+/*color: white;
+  top: 42%;*/
+  }
+}
+
+.body2 {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/*einzelne seiten*/
+.loona {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background: url(../images/loona.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+.pia {
+height: 100%;
+width: 50%;
+position: absolute;
+right: 0;
+  background: url(../images/pia.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#menu a:hover
+{
+    background-image: url(../images/piawhite.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.bundeswehr {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background: url(../images/bundeswehr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.berlin {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background: url(../images/berlin2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutme {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  background: url(../images/aboutme.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.referenzen {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  background: url(../images/eye.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  /*alle seiten*/
+.wrapper {
+  width: 50%;
+  height: 99%;
+  border: 0px;
+	padding: 0px;
+  position: absolute;
+  right: auto;
+  top: 0;
+  }
+
+  .wrapperright {
+    width: 50%;
+    height: 99%;
+    border: 0px;
+  	padding: 0px;
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: 0;
+    }
+
+
+ .subtitlelinks{
+  width: 300px;
+ 	height: 200px;
+	margin: 0 auto;
+  font-size: 11px;
+  color: grey;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.pfeile{
+ width: 80px;
+ height: 30px;
+ margin: 0 auto;
+ font-size: 11px;
+ color: grey;
+ position: relative;
+ top: 70%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+}
+
+.next3 {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.next4 {
+  margin-right: 0;
+  margin-left: auto;
+  visibility: hidden;
+}
+
+
+.bevore3 {
+  margin-right: auto;
+  margin-left: 0px;
+}
+
+.bevore4 {
+  margin-right: 0;
+  margin-left: auto;
+  visibility: hidden;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 5.0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#socialbookmarksanzeigen {
+  background-color: green;
+  padding: 0.4em;
+}
+
+#sozialbookmarks {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  display: none;
+  width: 150px;
+  height: 120px;
+  text-align: right;
+  position: absolute;
+  left: 38%;
+  top: 25%;
+  font-size: 15px;
+}
+
+/*reste
+
+.body3 {
+  background-color: grey;
+}
+
+
+
+<script language="javascript" src="javascript/java.js" type="text/javascript"> </script>
+
+*/
