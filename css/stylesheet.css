@@ -94,7 +94,7 @@ body {
 }
 
 .pia:hover {
-  background:url(../images/piawhite2.jpg);
+  background:url(../images/girlswhite.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -142,6 +142,8 @@ background-position: center;
   background: url(../images/aboutme.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 40px;
+  background-position: left;
 }
 
 .referenzen {
@@ -269,7 +271,7 @@ h1 {
 #wehr1 {
   left: 20%;
   right: auto;
-  top: 5%;
+  top: 10%;
   bottom: auto;
   width: 250px;
   height: auto;
@@ -277,9 +279,9 @@ h1 {
 }
 
 #wehr2 {
-  left: 50%;
+  left: 49%;
   right: auto;
-  top: 5%;
+  top: 10%;
   bottom: auto;
   width: 250px;
   height: auto;
@@ -289,7 +291,7 @@ h1 {
 #wehr3 {
   left: 20%;
   right: auto;
-  top: 25%;
+  top: 30%;
   bottom: auto;
   width: 250px;
   height: auto;
@@ -297,9 +299,9 @@ h1 {
 }
 
 #wehr4 {
-  left: 50%;
+  left: 49%;
   right: auto;
-  top: 25%;
+  top: 30%;
   bottom: auto;
   width: 250px;
   height: auto;
@@ -309,7 +311,7 @@ h1 {
 #wehr5 {
   left: 20%;
   right: auto;
-  top: 45%;
+  top: 50%;
   bottom: auto;
   width: 250px;
   height: auto;
@@ -317,9 +319,9 @@ h1 {
 }
 
 #wehr6 {
-  left: 50%;
+  left: 49%;
   right: auto;
-  top: 45%;
+  top: 50%;
   bottom: auto;
   width: 250px;
   height: auto;
@@ -329,7 +331,7 @@ h1 {
 #wehr7 {
   left: 20%;
   right: auto;
-  top: 65%;
+  top: 70%;
   bottom: auto;
   width: 250px;
   height: auto;
@@ -337,15 +339,37 @@ h1 {
 }
 
 #wehr8 {
-  left: 50%;
+  left: 49%;
   right: auto;
-  top: 65%;
+  top: 70%;
   bottom: auto;
   width: 250px;
   height: auto;
   position: absolute;
 }
 
+
+.loonagalerie {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background: url(../images/loonawhite.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.girlsgalerie {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background: url(../images/girlswhite.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .bundeswehrgalerie {
   height: 100%;
@@ -358,6 +382,16 @@ h1 {
   background-position: center;
 }
 
+.berlingalerie {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  background: url(../images/berlinwhite.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /*reste
 
