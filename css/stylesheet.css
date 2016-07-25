@@ -266,12 +266,86 @@ h1 {
 
 /* Unterseiten */
 
-.galerie {
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
+#wehr1 {
+  left: 20%;
+  right: auto;
+  top: 5%;
+  bottom: auto;
+  width: 250px;
   height: auto;
+  position: absolute;
 }
+
+#wehr2 {
+  left: 50%;
+  right: auto;
+  top: 5%;
+  bottom: auto;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
+#wehr3 {
+  left: 20%;
+  right: auto;
+  top: 25%;
+  bottom: auto;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
+#wehr4 {
+  left: 50%;
+  right: auto;
+  top: 25%;
+  bottom: auto;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
+#wehr5 {
+  left: 20%;
+  right: auto;
+  top: 45%;
+  bottom: auto;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
+#wehr6 {
+  left: 50%;
+  right: auto;
+  top: 45%;
+  bottom: auto;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
+#wehr7 {
+  left: 20%;
+  right: auto;
+  top: 65%;
+  bottom: auto;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
+#wehr8 {
+  left: 50%;
+  right: auto;
+  top: 65%;
+  bottom: auto;
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+
 
 .bundeswehrgalerie {
   height: 100%;
@@ -283,6 +357,7 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 /*reste
 
