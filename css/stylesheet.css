@@ -17,7 +17,7 @@ body {
 
 /*startseite*/
 .home {
-  background: url(../images/schiff.jpg) no-repeat center center fixed;
+  background: url(../images/baum.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,7 +45,13 @@ body {
   transform: translateY(-50%);
 /*color: white;
   top: 42%;*/
+
   }
+
+.n:hover {
+  opacity: 1.0;
+  color: #E3E3E3;
+  border: 1px;
 }
 
 .body2 {
@@ -142,7 +148,6 @@ background-position: center;
   background: url(../images/aboutme.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 40px;
   background-position: left;
 }
 
@@ -154,6 +159,7 @@ background-position: center;
   background: url(../images/eye.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
   /*alle seiten*/
