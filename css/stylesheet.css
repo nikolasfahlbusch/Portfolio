@@ -162,6 +162,13 @@ background-position: center;
   background-position: center;
 }
 
+.video {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
   /*alle seiten*/
 
 
