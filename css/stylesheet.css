@@ -162,15 +162,8 @@ background-position: center;
   background-position: center;
 }
 
-.video {
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  right: 0;
-}
 
   /*alle seiten*/
-
 
 .wrapper {
   width: 50%;
@@ -182,7 +175,6 @@ background-position: center;
   top: 0;
   }
 
-
   .wrapperright {
     width: 50%;
     height: 99%;
@@ -193,7 +185,6 @@ background-position: center;
     left: auto;
     top: 0;
     }
-
 
  .subtitlelinks{
   width: 300px;
@@ -216,9 +207,9 @@ background-position: center;
  color: grey;
  position: relative;
  top: 70%;
- -webkit-transform: translateY(-50%);
+/* -webkit-transform: translateY(-50%);
  -ms-transform: translateY(-50%);
- transform: translateY(-50%);
+ transform: translateY(-50%); */
 }
 
 .next3 {
